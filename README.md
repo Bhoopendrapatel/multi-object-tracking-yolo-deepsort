@@ -21,12 +21,12 @@ The system assigns unique and persistent IDs to each detected object and maintai
 
 ## Methodology
 
-Object Detection
+### Object Detection
 
 - Model: YOLOv8 (Ultralytics)
 - Detects objects in each frame with bounding boxes and confidence scores
 
-Object Tracking
+### Object Tracking
 
 - Algorithm: DeepSORT
 - Key Components:
@@ -93,7 +93,7 @@ The system successfully:
 
 ## Installation and Setup
 
-Prerequisites
+### Prerequisites
 
 - Python 3.8 or higher
 - pip
@@ -101,18 +101,18 @@ Prerequisites
 
 ---
 
-Clone Repository
+### Clone Repository
 
 git clone https://github.com/Bhoopendrapatel/multi-object-tracking-yolo-deepsort.git
 cd multi-object-tracking-yolo-deepsort
 
-Install Dependencies
+### Install Dependencies
 
 pip install -r requirements.txt
 
 ---
 
-How to Run
+### How to Run
 
 python assignment.py
 
