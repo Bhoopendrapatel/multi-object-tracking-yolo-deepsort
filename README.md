@@ -116,7 +116,6 @@ How to Run
 
 python assignment.py
 
-The output video will include bounding boxes and unique tracking IDs for each detected object.
 
 ---
 
@@ -149,7 +148,6 @@ Future Improvements
 
 Report
 
-Detailed Technical Report:
-"Download Report" (./report.pdf)
+[Download Report](./report.pdf)
 
 ---
