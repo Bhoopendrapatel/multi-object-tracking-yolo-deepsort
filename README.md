@@ -1,8 +1,8 @@
-#Multi-Object Detection and Tracking using YOLOv8 and DeepSORT
+# Multi-Object Detection and Tracking using YOLOv8 and DeepSORT
 
 ---
 
-##Project Overview
+## Project Overview
 
 This project implements a complete computer vision pipeline for detecting and tracking multiple objects in a video using YOLOv8 (Ultralytics) for object detection and DeepSORT for tracking.
 
@@ -10,7 +10,7 @@ The system assigns unique and persistent IDs to each detected object and maintai
 
 ---
 
-##Objectives
+## Objectives
 
 - Detect all relevant objects in a video
 - Assign unique IDs to each object
@@ -19,7 +19,7 @@ The system assigns unique and persistent IDs to each detected object and maintai
 
 ---
 
-##Methodology
+## Methodology
 
 Object Detection
 
@@ -36,7 +36,7 @@ Object Tracking
 
 ---
 
-##Pipeline Flow
+## Pipeline Flow
 
 1. Read input video frame-by-frame
 2. Perform object detection using YOLOv8
@@ -48,7 +48,7 @@ Object Tracking
 
 ---
 
-##Input and Output
+## Input and Output
 
 Original Input Video
 
@@ -64,7 +64,7 @@ https://drive.google.com/file/d/1m7Z5C068KfvMYyYCc48FzXvTtSDffyf5/view?usp=drive
 
 ---
 
-##Results
+## Results
 
 The system successfully:
 
@@ -73,7 +73,7 @@ The system successfully:
 - Maintains identity across frames
 - Handles moderate occlusion and motion
 
-##Sample Outputs
+## Sample Outputs
 
 "Result 1" (screenshot1.png)
 "Result 2" (screenshot2.png)
@@ -81,7 +81,7 @@ The system successfully:
 
 ---
 
-##Technology Stack
+## Technology Stack
 
 - Python
 - OpenCV
@@ -91,7 +91,7 @@ The system successfully:
 
 ---
 
-##Installation and Setup
+## Installation and Setup
 
 Prerequisites
 
@@ -119,7 +119,7 @@ python assignment.py
 
 ---
 
-##Challenges Faced
+## Challenges Faced
 
 - Maintaining ID consistency during occlusion
 - Handling fast-moving objects
@@ -128,7 +128,7 @@ python assignment.py
 
 ---
 
-##Limitations
+## Limitations
 
 - ID switching may occur in heavy occlusion
 - Performance depends on hardware
@@ -136,7 +136,7 @@ python assignment.py
 
 ---
 
-##Future Improvements
+## Future Improvements
 
 - Trajectory visualization
 - Object counting system
@@ -146,7 +146,7 @@ python assignment.py
 
 ---
 
-##Report
+## Report
 
 [Download Report](./report.pdf)
 
