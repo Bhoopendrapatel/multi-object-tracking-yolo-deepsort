@@ -50,15 +50,15 @@ The system assigns unique and persistent IDs to each detected object and maintai
 
 ## Input and Output
 
-Original Input Video
+### Original Input Video
 
 https://drive.google.com/file/d/1S1KHHHOjUHi4T2Cho_0QdY4get0FEeo_/view?usp=drivesdk
 
-Output Video (Tracked)
+### Output Video (Tracked)
 
 https://drive.google.com/file/d/1IVT4KVAavtyDxayDyr2ukiF_qxJ_EzV-/view?usp=drivesdk
 
-Demo Explanation Video
+### Demo Explanation Video
 
 https://drive.google.com/file/d/1m7Z5C068KfvMYyYCc48FzXvTtSDffyf5/view?usp=drivesdk
 
@@ -66,19 +66,18 @@ https://drive.google.com/file/d/1m7Z5C068KfvMYyYCc48FzXvTtSDffyf5/view?usp=drive
 
 ## Results
 
-The system successfully:
+The system successfully demonstrates the following capabilities:
 
-- Detects multiple objects in real-time
-- Assigns unique IDs to each object
-- Maintains identity across frames
+- Detects multiple objects in real-time  
+- Assigns unique IDs to each object  
+- Maintains identity across frames  
 - Handles moderate occlusion and motion
 
 ## Sample Outputs
 
-"Result 1" (screenshot1.png)
-"Result 2" (screenshot2.png)
-"Result 3" (screenshot3.png)
-
+![Result 1](screenshot1.png)  
+![Result 2](screenshot2.png)  
+![Result 3](screenshot3.png)
 ---
 
 ## Technology Stack
@@ -99,7 +98,6 @@ The system successfully:
 - pip
 - Git
 
----
 
 ### Clone Repository
 
@@ -110,7 +108,6 @@ cd multi-object-tracking-yolo-deepsort
 
 pip install -r requirements.txt
 
----
 
 ### How to Run
 
