@@ -111,7 +111,7 @@ pip install -r requirements.txt
 
 ### How to Run
 
-python assignment.py
+streamlit run assignment.py
 
 
 ---
